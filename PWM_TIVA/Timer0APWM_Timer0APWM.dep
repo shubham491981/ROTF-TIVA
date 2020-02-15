@@ -1,0 +1,14 @@
+Dependencies for Project 'Timer0APWM', Target 'Timer0APWM': (DO NOT MODIFY !)
+F (.\startup.s)(0x53E9A60E)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\keil_v5\ARM\RV31\INC-ID:\keil_v5\ARM\CMSIS\Include-ID:\keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 528"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x5E48566E)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\keil_v5\ARM\RV31\INC-ID:\keil_v5\ARM\CMSIS\Include-ID:\keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="528" -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (tm4c123gh6pm.h)(0x5E46DBFA)
+I (PLL.h)(0x53E9A60E)
+F (.\Timer0APWM.c)(0x5E485661)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\keil_v5\ARM\RV31\INC-ID:\keil_v5\ARM\CMSIS\Include-ID:\keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="528" -Drvmdk -DPART_LM4F120H5QR-o .\timer0apwm.o --omf_browse .\timer0apwm.crf --depend .\timer0apwm.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (tm4c123gh6pm.h)(0x5E46DBFA)
+F (.\Timer0APWMTestMain.c)(0x5E4856C5)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-ID:\keil_v5\ARM\RV31\INC-ID:\keil_v5\ARM\CMSIS\Include-ID:\keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="528" -Drvmdk -DPART_LM4F120H5QR-o .\timer0apwmtestmain.o --omf_browse .\timer0apwmtestmain.crf --depend .\timer0apwmtestmain.d)
+I (D:\keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB9D0A)
+I (Timer0APWM.h)(0x53E9A716)
+I (PLL.h)(0x53E9A60E)
+F (.\tm4c123gh6pm.h)(0x5E46DBFA)()
